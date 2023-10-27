@@ -1,0 +1,69 @@
+/* Place your CSS styles in this file */
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+
+}
+
+h1 {
+    text-align: center;
+    font-family: "Gill sans", sans-serif;
+    font-weight: normal;
+}
+
+body{
+}
+
+.role{
+    color: red;
+    margin-bottom: 20px;
+}
+
+.committe_name > h2{
+    margin-left: 20px;
+    color: tomato;
+}
+
+.hero{
+    margin-top: 50px;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    margin-bottom: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;}
+
+.header > a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.main__container{
+    display: grid;
+    margin-top: 50px;
+    gap: 50px;
+    justify-content: space-evenly;
+    grid-template-columns: repeat(3, 250px);
+}
+
+.card{
+    padding: 20px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 20px;
+}
+
+.card > h3{
+    color: red;
+}
+
+h2{
+    font-weight: 200px;
+}
